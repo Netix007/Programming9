@@ -2,7 +2,7 @@
 
 int GetSum(int m, int n, int sum)
 {
-    sum = sum + m;
+    sum++;
     if (m < n)
     {
         m++;
@@ -35,4 +35,4 @@ if (m > n)
         n = temp;
     }
 sum = GetSum(m,n,sum);
-Console.WriteLine($"Сумма натуральных чисел в промежутке от {m} до {n}: {sum}");
+Console.WriteLine($"Сумма натуральных элементов в промежутке от {m} до {n}: {sum}");
